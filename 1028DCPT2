@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void truck_weight_check(int weight);
+
+int main() {
+
+	
+	truck_weight_check(2000);
+
+
+}
+
+
+void truck_weight_check(int weight) {
+	if (weight > 1200)
+		cout << "Overweight!" << endl;
+	else
+		cout << "Within the limit!" << endl;
+
+}
