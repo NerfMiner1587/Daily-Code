@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int get_ticket_price(int age);
+
+int main() {
+
+	cout << get_ticket_price (22);
+
+}
+
+int get_ticket_price(int age) {
+	if (age < 10)
+		return 8;
+	else if (age < 60)
+		return 18;
+	else
+		return 12;
+}
