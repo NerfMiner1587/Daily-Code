@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void school_zone_signal(string color);
+
+int main() {
+
+
+	school_zone_signal("Green");
+
+
+}
+
+
+void school_zone_signal(string color) {
+	if (color == "Flashing Red")
+		cout << "Stop" << endl;
+	else if (color == "Yellow")
+		cout << "Be Ready" << endl;
+	else if (color == "Green")
+		cout << "Proceed" << endl;
+
+}
