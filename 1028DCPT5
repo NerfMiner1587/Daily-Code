@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void username();
+
+int main() {
+
+	username();
+
+}
+
+void username() {
+	string name = "diana";
+	while (name != "CodeMaster123") {
+		cout << "enter name" << endl;
+		cin >> name;
+		if (name == "CodeMaster123")
+			cout << "Access Granted!" << endl;
+		else
+			cout << "get outta here!" << endl;
+	}
+
+}
