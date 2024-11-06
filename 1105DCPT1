@@ -1,0 +1,7 @@
+def InsultCompliment(name, mode):
+    if (mode == "insult"):
+        print("Haha", name, "the Clippers fan!!!")
+    else:
+        print(name, "you're a great Chiefs fan")
+        
+InsultCompliment("Jeremy", "mode")
