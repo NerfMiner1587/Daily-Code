@@ -1,0 +1,7 @@
+def boxofstars(x, y):
+    for i in range(x):
+        for j in range(y):
+            print("*", end = " ")
+        print()
+        
+boxofstars(10, 2)
