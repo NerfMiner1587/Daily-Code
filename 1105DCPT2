@@ -1,0 +1,19 @@
+import random
+
+def Magic8ball(question):
+    print (question)
+    num = random.randrange(1, 100)
+    if num < 20:
+        print("without a doubt")
+    elif num < 40:
+        print("Signs point to yes")
+    elif num < 60:
+        print("As I see it")
+    elif num < 80:
+        print("It is decidedly so")
+    else:
+        print("Yes")
+
+x = input("ask a question")
+Magic8ball(x)
+
